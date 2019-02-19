@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#1B182C"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@drawable/title_genre"/>
+        <ImageButton
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:id="@+id/horror"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/horror"
+            android:layout_gravity="top|center"
+            />
+
+
+        <ImageButton
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/mystery"
+            android:layout_gravity="top|center"
+            />
+
+
+        <ImageButton
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/romance"
+            android:layout_gravity="top|center"
+            />
+
+
+        <ImageButton
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/scifi"
+            android:layout_gravity="top|center"
+            />
+
+        <ImageButton
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/scifi"
+            android:layout_gravity="top|center"
+            />
+        <ImageButton
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/scifi"
+            android:layout_gravity="top|center"
+            />
+        <ImageButton
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/scifi"
+            android:layout_gravity="top|center"
+            />
+        <ImageButton
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/scifi"
+            android:layout_gravity="top|center"
+            />
+        <ImageButton
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/scifi"
+            android:layout_gravity="top|center"
+            />
+        <ImageButton
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/scifi"
+            android:layout_gravity="top|center"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
